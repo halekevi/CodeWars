@@ -1,12 +1,3 @@
-alert("hello world");
-
-let x = 5;
-  let y = 6;
-  let z = x+y;
-
-var ahh = [0,1,2,-1,-2];
-    console.log (ahh)
-
 function countPositivesSumNegatives(input) {
     const answer = []
     let positiveSum = 0
@@ -25,11 +16,3 @@ function countPositivesSumNegatives(input) {
     }
     return answer
 }
-
-  
-var ahh = [0,1,2,-1,-2],
-  negative = ahh.filter(function (a) {
-    return a <= 0;}),
-    sum = negative.reduce(function(a,b) {return a + b;});
-
-
