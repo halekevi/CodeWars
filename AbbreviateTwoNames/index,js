@@ -1,0 +1,11 @@
+function abbrevName(name){
+
+  var matches = name.match(/\b(\w)/g); // ['J','S','O','N']
+  var acronym = matches.join('.'); // JSON 
+  let str = acronym.toString();
+  
+  
+return str
+
+}
+
